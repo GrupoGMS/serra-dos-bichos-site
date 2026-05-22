@@ -114,7 +114,7 @@ export default function HeroSection() {
           <div className="absolute inset-0 rounded-full moving-border-gradient" />
           <WhatsAppButton
             type="agendar"
-            label="Agendar Agora"
+            label="Chamar no WhatsApp"
             size="lg"
             variant="primary"
             className="relative rounded-full bg-[#CC1F1F] hover:bg-[#A81A1A] border-0 shadow-none"
@@ -164,7 +164,7 @@ export default function HeroSection() {
             <div className="absolute inset-0 rounded-full moving-border-gradient" />
             <WhatsAppButton
               type="agendar"
-              label="Agendar Agora"
+              label="Chamar no WhatsApp"
               size="lg"
               variant="primary"
               className="relative rounded-full bg-[#CC1F1F] hover:bg-[#A81A1A] border-0 shadow-none"
