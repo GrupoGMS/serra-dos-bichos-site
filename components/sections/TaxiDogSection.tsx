@@ -84,13 +84,13 @@ export default function TaxiDogSection() {
           </video>
 
           {/* Fade topo */}
-          <div className="absolute top-0 left-0 right-0 h-36 bg-gradient-to-b from-[#0C0C0C] via-[#0C0C0C]/70 to-transparent pointer-events-none" />
+          <div className="absolute top-0 left-0 right-0 h-12 lg:h-36 bg-gradient-to-b from-[#0C0C0C] via-[#0C0C0C]/70 to-transparent pointer-events-none" />
           {/* Fade base */}
-          <div className="absolute bottom-0 left-0 right-0 h-36 bg-gradient-to-t from-[#0C0C0C] via-[#0C0C0C]/70 to-transparent pointer-events-none" />
+          <div className="absolute bottom-0 left-0 right-0 h-12 lg:h-36 bg-gradient-to-t from-[#0C0C0C] via-[#0C0C0C]/70 to-transparent pointer-events-none" />
           {/* Fade esquerdo (desktop) */}
           <div className="absolute top-0 left-0 bottom-0 w-28 bg-gradient-to-r from-[#0C0C0C] to-transparent pointer-events-none hidden lg:block" />
           {/* Fade direito — cobre borda/V03 */}
-          <div className="absolute top-0 right-0 bottom-0 w-28 bg-gradient-to-l from-[#0C0C0C] to-transparent pointer-events-none" />
+          <div className="absolute top-0 right-0 bottom-0 w-10 lg:w-28 bg-gradient-to-l from-[#0C0C0C] to-transparent pointer-events-none" />
         </motion.div>
 
         {/* ── 3º mobile / col-1 row-2 desktop: Descrição + Features + CTA ── */}

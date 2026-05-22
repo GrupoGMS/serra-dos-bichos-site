@@ -23,6 +23,7 @@ export default function Navbar() {
   );
   const backdropBlur = useTransform(scrollY, [0, 80], ["blur(0px)", "blur(16px)"]);
   const borderOpacity = useTransform(scrollY, [0, 80], [0, 0.15]);
+  const logoOpacity = useTransform(scrollY, [40, 120], [0, 1]);
 
   return (
     <motion.nav
@@ -34,8 +35,8 @@ export default function Navbar() {
         className="border-b border-transparent"
       >
         <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
-          {/* Logo */}
-          <a href="#hero" className="flex items-center gap-3">
+          {/* Logo — aparece apenas após sair da hero */}
+          <motion.a href="#hero" style={{ opacity: logoOpacity }} className="flex items-center gap-3">
             <Image
               src="/assets/images/logo-oficial.png"
               alt="Serra dos Bichos"
@@ -47,7 +48,7 @@ export default function Navbar() {
               Serra dos Bichos<br />
               <span className="text-[#CC1F1F] text-xs font-normal tracking-widest uppercase">Petshop</span>
             </span>
-          </a>
+          </motion.a>
 
           {/* Desktop links */}
           <ul className="hidden md:flex items-center gap-8">

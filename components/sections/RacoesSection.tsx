@@ -120,9 +120,9 @@ export default function RacoesSection() {
         </motion.div>
 
         {/* Fade topo */}
-        <div className="absolute top-0 left-0 right-0 h-32 bg-gradient-to-b from-[#0C0C0C] via-[#0C0C0C]/60 to-transparent pointer-events-none" />
+        <div className="absolute top-0 left-0 right-0 h-12 lg:h-32 bg-gradient-to-b from-[#0C0C0C] via-[#0C0C0C]/60 to-transparent pointer-events-none" />
         {/* Fade base */}
-        <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-[#0C0C0C] via-[#0C0C0C]/60 to-transparent pointer-events-none" />
+        <div className="absolute bottom-0 left-0 right-0 h-12 lg:h-32 bg-gradient-to-t from-[#0C0C0C] via-[#0C0C0C]/60 to-transparent pointer-events-none" />
       </motion.div>
 
       {/* Conteúdo abaixo do vídeo */}
